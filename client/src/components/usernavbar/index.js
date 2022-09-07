@@ -8,7 +8,7 @@ import { UserContext } from '../../contextapi/usercontext';
 import { useNavigate } from 'react-router-dom';
 const axios=require('axios');
 
-const Navbar = () => {
+const UserNavbar = () => {
 
   const { setAuth } = useContext(UserContext);
   const navigate = useNavigate();
@@ -38,8 +38,8 @@ const Navbar = () => {
             {/* <li><Link to="/">Register</Link></li> */}
                 <li><Link to="/viewmedicine">View Medicine</Link></li>
                 {/* <li><Link to="/adminlogin">Admin Login</Link></li> */}
-                <li><Link to="/adminviewmedicine">Admin Medicines</Link></li>
-                <li><Link to="/criticalhospitals">Hospitals</Link></li>
+                {/* <li><Link to="/adminviewmedicine">Admin Medicines</Link></li> */}
+                {/* <li><Link to="/criticalhospitals">Hospitals</Link></li> */}
                 <li><IconButton color="primary" aria-label="add to shopping cart">
         <LogoutIcon onClick={logout}/>
       </IconButton></li>
@@ -58,4 +58,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default UserNavbar

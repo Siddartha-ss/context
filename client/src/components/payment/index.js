@@ -25,7 +25,7 @@ const Payment = () => {
                             <div className="d-flex align-items-center justify-content-between">
 
                               <span>Paypal</span>
-                              <img src="https://i.imgur.com/7kQEsHU.png" alt="xyz" width="30"/>
+                              <img src="https://i.imgur.com/7kQEsHU.png" alt="xyz" width="5" height="5"/>
                               
                             </div>
                           </button>
@@ -46,10 +46,10 @@ const Payment = () => {
 
                               <span>Credit card</span>
                               <div className="icons">
-                                <img src="https://i.imgur.com/2ISgYja.png" width="30" alt="xyz"/>
-                                <img src="https://i.imgur.com/W1vtnOV.png" width="30" alt="xyz"/>
-                                <img src="https://i.imgur.com/35tC99g.png" width="30" alt="xyz"/>
-                                <img src="https://i.imgur.com/2ISgYja.png" width="30" alt="xyz"/>
+                                {/* <img src="https://i.imgur.com/2ISgYja.png" width={5} height={5} alt="xyz"/>
+                                <img src="https://i.imgur.com/W1vtnOV.png" width={5} height={5} alt="xyz"/>
+                                <img src="https://i.imgur.com/35tC99g.png" width={5} height={5} alt="xyz"/>
+                                <img src="https://i.imgur.com/2ISgYja.png" width={5} height={5} alt="xyz"/> */}
                               </div>
                               
                             </div>
